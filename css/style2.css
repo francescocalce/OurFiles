@@ -1,0 +1,107 @@
+.main-body
+{
+    width: 100%;
+    height: 100%;
+}
+.navbar
+{
+    display: block;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.setting-button
+{
+    width: 70%;
+    display: block;
+    text-align: center;
+    white-space: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #7671DE;
+    border-radius: 17px;
+    padding: 19px 24px;
+    margin: 10px auto;
+    border: 5px outset #504d97;
+    cursor: pointer;
+}
+
+.setting-button:hover {
+    background-color: #504d97;
+    border-color: #504d97;
+}
+.setting-button:active{
+    background-color: #504d97;
+    border-color: #504d97;
+}
+.setting-button > strong {
+    font-size: 24px;
+}
+
+.setting-page
+{
+    right: 0;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+    border-left-style: inset;
+    border-top-style: inset;
+
+}
+
+/***/
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
