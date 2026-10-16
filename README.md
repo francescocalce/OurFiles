@@ -6,7 +6,7 @@ Progettata e sviluppata interamente in autonomia, ospitata su hosting Altervista
 
 ## Funzionalità
 
-- Login e registrazione utenti
+- Login (gli account venivano creati direttamente da me per i colleghi di corso, nessuna registrazione autonoma)
 - Caricamento di file (appunti, dispense) con associazione a materia e autore
 - Consultazione e ricerca dei materiali caricati
 
